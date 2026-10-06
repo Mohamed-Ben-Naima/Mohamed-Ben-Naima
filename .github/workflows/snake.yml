@@ -24,6 +24,14 @@ jobs:
       SNAKE_COLOR: "%23d4af37"
       GRID_DOTS: "%230b0716,%2315132e,%23221f4e,%236d53c8,%23d4af37"
     steps:
+      # Runs first: the snake step below runs in Docker as root, and a
+      # root-owned dist/ would stop this (non-root) action writing to it.
+      - name: Let Pac-Man loose on the same grid
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa # v5.3.2
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: pacman
+
       - name: Draw the snake from latest contributions
         uses: Platane/snk@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
         with:
@@ -32,12 +40,6 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=${{ env.SNAKE_COLOR }}&color_dots=${{ env.GRID_DOTS }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Let Pac-Man loose on the same grid
-        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa # v5.3.2
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          games: pacman
 
       - name: Stage snake as artifact
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
