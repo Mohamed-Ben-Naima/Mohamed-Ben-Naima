@@ -3,6 +3,8 @@ name: render-readme
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "17 3 * * *" # daily scoreboard refresh
   workflow_dispatch:
 
 permissions:
@@ -14,11 +16,23 @@ concurrency:
 
 jobs:
   render:
-    name: Render README from template
+    name: Build arcade assets and render README
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.12"
+
+      - name: Install font tooling
+        run: pip install fonttools brotli
+
+      - name: Build SVGs (scoreboard pulls live GitHub stats)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/build_assets.py
 
       - name: Inject owner and repo into README
         run: |
@@ -30,6 +44,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff --cached --quiet || git commit -m "chore: regenerate README from template"
+          git add README.md assets
+          if [ -f scripts/stats.json ]; then git add scripts/stats.json; fi
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: rebuild arcade assets and README"
+          git pull --rebase origin main
           git push
