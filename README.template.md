@@ -32,6 +32,7 @@
 player:      Mohamed Ben Naima
 class:       Sec-Dev            # builds it, then tries to break it
 base:        Mahdia, Tunisia
+school:      ESPRIM — engineering school
 main_quest:  PFE internship — end-of-cycle engineering project
 playstyle:
   - Ship real products for real businesses (ERP, invoicing, reporting)
@@ -144,7 +145,7 @@ party:       open to collaborations & CTF teammates
 
 <p align="center"><img src="assets/h-projects.svg" width="70%" alt="Stage 03 · Featured Work" /></p>
 
-<p align="center"><img src="assets/level-select.svg" width="100%" alt="Level select — Secured Banking Infrastructure (Spring Boot, Angular, Kafka, GNS3; ESPRIT Bal de Projet nominee) · Hermes Suite (React, Express, MongoDB, Render; in progress) · The Hive (FastAPI, JWT, OAuth2, OpenAPI) · MiraviaSpace (Symfony, Oracle, JavaFX, AI chatbot; runner-up)" /></p>
+<p align="center"><img src="assets/level-select.svg" width="100%" alt="Level select — Secured Banking Infrastructure (Spring Boot, Angular, Kafka, GNS3; ESPRIM Bal de Projet nominee) · Hermes Suite (React, Express, MongoDB, Render; in progress) · The Hive (FastAPI, JWT, OAuth2, OpenAPI) · MiraviaSpace (Symfony, Oracle, JavaFX, AI chatbot; runner-up)" /></p>
 
 <p align="center">
   <sub>Some of my best work is private while it ships — check my pinned repos for what's public. 🍳</sub>
