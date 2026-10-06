@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/snake.yml"]
 
 concurrency:
   group: snake-animation
@@ -11,7 +14,7 @@ concurrency:
 
 jobs:
   generate:
-    name: Generate contribution snake
+    name: Generate contribution snake & Pac-Man
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
@@ -29,6 +32,12 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=${{ env.SNAKE_COLOR }}&color_dots=${{ env.GRID_DOTS }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Let Pac-Man loose on the same grid
+        uses: abozanona/pacman-contribution-graph@7332e1de7903ab780c3692a4127a59cc13872daa # v5.3.2
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          games: pacman
 
       - name: Stage snake as artifact
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
