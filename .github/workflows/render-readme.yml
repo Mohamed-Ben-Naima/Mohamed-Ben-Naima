@@ -31,7 +31,8 @@ jobs:
 
       - name: Build SVGs (scoreboard pulls live GitHub stats)
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional STATS_TOKEN (personal token) also counts private contributions
+          GITHUB_TOKEN: ${{ secrets.STATS_TOKEN || secrets.GITHUB_TOKEN }}
         run: python scripts/build_assets.py
 
       - name: Inject owner and repo into README
