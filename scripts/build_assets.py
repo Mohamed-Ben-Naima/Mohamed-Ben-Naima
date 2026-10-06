@@ -13,7 +13,8 @@ come from Simple Icons (CC0), vendored in scripts/icons.json.
 
 With GITHUB_TOKEN set (as in the render-readme workflow) the scoreboard is
 refreshed from the GitHub API and cached in scripts/stats.json; without it
-the cached numbers are reused.
+the cached numbers are reused. The workflow passes the STATS_TOKEN secret
+when it exists, so a personal token can count private contributions too.
 
 Edit the CONTENT section below to change text, skills or projects.
 """
@@ -801,6 +802,12 @@ def load_stats():
     return None
 
 
+def days(n):
+    if n is None:
+        return "-- DAYS"
+    return f"{n} DAY" if n == 1 else f"{n} DAYS"
+
+
 def scoreboard():
     st = load_stats()
     W, H = 1000, 420
@@ -833,10 +840,10 @@ def scoreboard():
     s.add(f'<rect x="{px}" y="86" width="360" height="190" rx="14" fill="#0b0716" stroke="{GOLD_LO}" stroke-opacity=".6"/>')
     s.add(f'<g class="flicker" style="animation-duration:1.4s">{sprite("flame", px + 26, 112, 7, "url(#goldV)", extra="filter=\"url(#softglow)\"")}</g>')
     s.add(s.text(px + 110, 124, "CURRENT STREAK", size=10, fill=VIOLET_HI))
-    s.add(s.text(px + 110, 168, f"{st['current_streak']} DAYS" if st else "-- DAYS", size=26, fill="url(#goldV)",
+    s.add(s.text(px + 110, 168, days(st and st["current_streak"]), size=26, fill="url(#goldV)",
                  extra='filter="url(#softglow)"'))
     s.add(s.text(px + 110, 200, "LONGEST", size=10, fill=MUTED))
-    s.add(s.text(px + 340, 200, f"{st['longest_streak']} DAYS" if st else "-- DAYS", size=10, fill=LILAC, anchor="end"))
+    s.add(s.text(px + 340, 200, days(st and st["longest_streak"]), size=10, fill=LILAC, anchor="end"))
     langs = st["languages"] if st else []
     s.add(s.text(px + 20, 234, "TOP LANGS", size=9, fill=MUTED))
     lx = px + 120
