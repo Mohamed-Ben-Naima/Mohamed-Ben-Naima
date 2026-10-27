@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <sub>📍 <b>Mahdia, Tunisia</b> &nbsp;·&nbsp; 🎓 <b>ESPRIM — Cybersecurity &amp; Cloud</b> &nbsp;·&nbsp; 🏭 <b>Shipping Microtiss Confect ERP &amp; Hermes Suite</b> &nbsp;·&nbsp; 🎯 <b>Open to a PFE internship</b></sub>
+  <sub>📍 <b>Mahdia, Tunisia</b> &nbsp;·&nbsp; 🎓 <b>ESPRIM — Cybersecurity &amp; Cloud</b> &nbsp;·&nbsp; 🏭 <b>Building Alfa ERP, Polymaille ERP &amp; MedLink</b> &nbsp;·&nbsp; 🎯 <b>Open to a PFE internship</b></sub>
 </p>
 
 <p align="center"><img src="assets/ticker.svg" width="100%" alt="Secure the stack · Ship the vision · Full-stack · Cloud · Cybersecurity · CTFs · Hackathons · Communities · Based in Mahdia · Building globally" /></p>
@@ -62,7 +62,7 @@ party:       open to collaborations & CTF teammates
 
 <p align="center"><img src="assets/h-projects.svg" width="70%" alt="Stage 03 · Featured Work" /></p>
 
-<p align="center"><img src="assets/level-select.svg" width="100%" alt="Level select — Microtiss Confect ERP (in production, now playing) · Hermes Suite (MERN e-commerce becoming a multi-tenant SaaS) · Secured Banking Infrastructure (Projects Ball nominee) · The Hive (FastAPI trading backend) · Smart Home IoT (team lead) · Windows Server Lab" /></p>
+<p align="center"><img src="assets/level-select.svg" width="100%" alt="Level select — main quests: Polymaille ERP (Spring Modulith, deploying) · Alfa ERP (.NET 9, AI proposes, accountant approves) · MedLink (Spring Boot + Keycloak auth hardening) · Hermes (live e-commerce, 63 endpoints, 101 tests). Side levels: Secured Banking Infrastructure (nominee) · Jenkins CI/CD pipeline" /></p>
 
 <p align="center">
   <sub>Most of this work is private while it ships — check my pinned repos for what's public. 🍳</sub>
@@ -74,7 +74,7 @@ party:       open to collaborations & CTF teammates
 
 <p align="center"><img src="assets/h-stack.svg" width="70%" alt="Stage 04 · Tech Arsenal" /></p>
 
-<p align="center"><img src="assets/inventory.svg" width="100%" alt="Tech arsenal — Languages: Python, JavaScript, TypeScript, Java, PHP, SQL · Frontend: Angular, React, React Native, Tailwind, HTML/CSS · Backend: FastAPI, Node.js, Express, Spring Boot, Symfony, Swagger · Databases: MongoDB, PostgreSQL, MySQL, Oracle · Tools: Git, Postman, Jira, n8n · Security: JWT, OAuth2, RBAC, Keycloak, Wazuh, Kali · Cloud &amp; DevOps: Docker, Kubernetes, OpenStack, AWS, GitLab CI, GitHub Actions · Network &amp; OS: Cisco, pfSense, Wireshark, VLANs, Ubuntu, Windows Server · Observability: Grafana, Prometheus, Loki, Kafka" /></p>
+<p align="center"><img src="assets/inventory.svg" width="100%" alt="Tech arsenal — Languages: Python, JavaScript, TypeScript, Java, PHP, SQL · Frontend: Angular, React, React Native, Tailwind, HTML/CSS · Backend: FastAPI, Node.js, Express, Spring Boot, Symfony, Swagger · Databases: MongoDB, PostgreSQL, MySQL, Oracle · Tools: Git, Postman, Jira, n8n · Security: JWT, OAuth2, RBAC, Keycloak, Wazuh, Kali · DevSecOps &amp; Cloud: Jenkins, GitHub Actions, Docker, Kubernetes, Terraform, Trivy · Network &amp; OS: Cisco, pfSense, Wireshark, VLANs, Ubuntu, Windows Server · Observability: Grafana, Prometheus, Loki, Kafka" /></p>
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 

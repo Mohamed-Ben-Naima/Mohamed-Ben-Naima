@@ -76,8 +76,10 @@ ATTRIBUTES = [  # label, 0-100, rank
 ]
 
 QUESTS = [  # when, role, where, line, current?
+    ("AUG 2026 → NOW", "Co-developer · Alfa ERP", "Alfa Computers & Consulting",
+     "Admin console with signed, verified backups; an MCP server where AI proposes and an accountant approves.", True),
     ("JUL – SEP 2026", "Software Engineering Intern · Full-Stack", "Polymaille (textile industry) · Ksar Hellal",
-     "Delivered the Microtiss Confect ERP: purchase, stock, production and sales in one source of truth, secured with RBAC.", True),
+     "Delivered the Microtiss Confect ERP: purchase, stock, production and sales in one source of truth, secured with RBAC.", False),
     ("MAR 2024 – AUG 2025", "Full-Stack / Backend / Mobile Developer", "Alfa Computers · Mahdia",
      "Built The Hive trading backend, a solo MERN e-commerce shipped via GitLab CI/CD, and led a 3-person IoT team.", False),
     ("2024 – NOW", "Engineering Degree · Cybersecurity & Cloud", "ESPRIM · Monastir",
@@ -86,31 +88,31 @@ QUESTS = [  # when, role, where, line, current?
      "Graduated with highest honours. Hermes Suite was born here.", False),
 ]
 
-PROJECTS = [  # title, world, icon, description, tech, badge, status
-    ("Microtiss Confect ERP", "WORLD 1-1", "factory",
-     "Full-cycle industrial ERP for a textile manufacturer: supplier orders, approvals, stock, "
-     "production, invoices and payments, shared across teams with granular RBAC.",
-     ["ERP", "REST API", "RBAC", "SQL"], "★ IN PRODUCTION", "NOW PLAYING"),
-    ("Hermes Suite", "WORLD 1-2", "cart",
-     "MERN e-commerce platform with catalogue, cart, checkout, orders and PDF invoices, now "
-     "being matured into a multi-tenant SaaS.",
-     ["React", "Node.js", "Express", "MongoDB"], None, "IN PROGRESS"),
+PROJECTS = [  # title, world, icon, description, tech, badge, status — main quests first
+    ("Polymaille ERP", "WORLD 1-1", "factory",
+     "Industrial ERP for Microtiss Confect & Clothing: purchase, stock, production and sales "
+     "in one source of truth. I own Stock and Sales in a Spring Boot Modulith.",
+     ["Spring Modulith", "Angular", "Keycloak", "MySQL"], "★ INTERNSHIP", "DEPLOYING"),
+    ("Alfa ERP", "WORLD 1-2", "ledger",
+     ".NET 9 accounting ERP, co-developed. I shipped signed, verified backups and an MCP "
+     "server where AI proposes entries and an accountant approves.",
+     [".NET 9", "WPF", "PostgreSQL", "MCP"], "★ AI × HUMAN", "IN DEVELOPMENT"),
+    ("MedLink", "WORLD 1-3", "medkit",
+     "Health portal for three clinics; the browser never holds a token. I built the auth "
+     "hardening test-first: lockout, idle sessions, strict cookies.",
+     ["Spring Boot 4", "Keycloak", "CodeQL", "ZAP"], "★ SECURITY", "IN DEVELOPMENT"),
+    ("Hermes", "WORLD 1-4", "cart",
+     "Solo e-commerce platform growing into a multi-tenant SaaS: 63 REST endpoints, "
+     "101 Jest tests, Docker, rate limits and caching.",
+     ["React", "Node.js", "MongoDB", "Docker"], "★ LIVE", "LIVE"),
     ("Secured Banking Infra", "WORLD 2-1", "bank",
-     "Microservices banking app on a private OpenStack cloud in GNS3: dual pfSense, VLANs, "
-     "Kafka, KYC with JWT/RBAC and full observability.",
-     ["Spring Boot", "Angular", "Kafka", "OpenStack"], "★ NOMINEE", "CLEARED"),
-    ("The Hive", "WORLD 2-2", "bolt",
-     "Trading platform backend serving the web client through fully authenticated REST "
-     "endpoints, with Swagger docs and Postman suites.",
-     ["FastAPI", "JWT", "OAuth2", "Swagger"], None, "CLEARED"),
-    ("Smart Home IoT", "WORLD 3-1", "house",
-     "Led a team of three to ship a mobile app streaming live Arduino sensor data and "
-     "controlling LEDs from the phone.",
-     ["React Native", "Node.js", "Arduino", "Render"], "★ TEAM LEAD", "CLEARED"),
-    ("Windows Server Lab", "WORLD 3-2", "server",
-     "Windows Server roles (FTP, DNS, DHCP) with Active Directory, Kerberos-based "
-     "authentication and granular file permissions.",
-     ["Windows Server", "AD", "Kerberos", "DNS"], None, "CLEARED"),
+     "Private cloud from scratch in GNS3 + OpenStack: dual pfSense, four VLAN tiers, Kafka "
+     "microservices and a Wazuh SOC.",
+     ["OpenStack", "pfSense", "Kafka", "Wazuh"], "★ NOMINEE", "CLEARED"),
+    ("CI/CD Pipeline", "WORLD 2-2", "pipe",
+     "Five-stage Jenkins pipeline: every push builds, tests and ships a numbered image to "
+     "Docker Hub, with Kubernetes manifests.",
+     ["Jenkins", "Docker", "Kubernetes", "Nexus"], None, "CLEARED"),
 ]
 
 INVENTORY = [  # column, category, [(label, simple-icon slug or monogram)]
@@ -125,8 +127,8 @@ INVENTORY = [  # column, category, [(label, simple-icon slug or monogram)]
     (0, "TOOLS", [("Git", "git"), ("Postman", "postman"), ("Jira", "jira"), ("n8n", "n8n")]),
     (1, "SECURITY & AUTH", [("JWT", "jsonwebtokens"), ("OAuth2", "=OA2"), ("RBAC", "=RBAC"),
                             ("Keycloak", "keycloak"), ("Wazuh", "=WZH"), ("Kali", "kalilinux")]),
-    (1, "CLOUD & DEVOPS", [("Docker", "docker"), ("Kubernetes", "kubernetes"), ("OpenStack", "openstack"),
-                           ("AWS", "=AWS"), ("GitLab CI", "gitlab"), ("Actions", "githubactions")]),
+    (1, "DEVSECOPS & CLOUD", [("Jenkins", "jenkins"), ("Actions", "githubactions"), ("Docker", "docker"),
+                              ("Kubernetes", "kubernetes"), ("Terraform", "terraform"), ("Trivy", "trivy")]),
     (1, "NETWORK & OS", [("Cisco", "cisco"), ("pfSense", "pfsense"), ("Wireshark", "wireshark"),
                          ("VLANs", "=VLAN"), ("Ubuntu", "ubuntu"), ("Win Server", "=WIN")]),
     (1, "OBSERVABILITY", [("Grafana", "grafana"), ("Prometheus", "prometheus"), ("Loki", "=LOKI"),
@@ -181,6 +183,9 @@ SPRITES = {
                 "XXXXXXXXX", "X.X.X.X.X", "XXXXXXXXX", "XXXXXXXXX"],
     "cart": ["XX.......", ".X.......", ".XXXXXXXX", ".X.....X.", ".X....X..",
              ".XXXXXX..", ".X.......", "..X...X..", "........."],
+    "ledger": ["XXXXXXXX.", "X......XX", "X.XXXX.X.", "X......X.", "X.XX.X.X.", "X......X.", "X.XXXX.X.", "X......X.", "XXXXXXXX."],
+    "medkit": [".XXXXXXX.", "XX.....XX", "X...X...X", "X...X...X", "X.XXXXX.X", "X...X...X", "X...X...X", "XX.....XX", ".XXXXXXX."],
+    "pipe": [".........", "XXX......", "X.X......", "XXXXXX...", "..X.XXX..", "..XXX.XXX", "......X.X", "......XXX", "........."],
     "bank": ["....X....", "..XXXXX..", "XXXXXXXXX", ".........", ".X.X.X.X.",
              ".X.X.X.X.", ".X.X.X.X.", ".........", "XXXXXXXXX"],
     "bolt": [".....XXX.", "....XXX..", "...XXX...", "..XXXXXX.", "....XXX..",
