@@ -90,28 +90,28 @@ QUESTS = [  # when, role, where, line, current?
 
 PROJECTS = [  # title, world, icon, description, tech, badge, status — main quests first
     ("Polymaille ERP", "WORLD 1-1", "factory",
-     "Industrial ERP for Microtiss Confect & Clothing: purchase, stock, production and sales "
-     "in one source of truth. I own Stock and Sales in a Spring Boot Modulith.",
+     "Problem: a garment maker ran purchase, stock and sales on scattered files. "
+     "Built: Stock & Sales modules. Impact: one source of truth, now deploying.",
      ["Spring Modulith", "Angular", "Keycloak", "MySQL"], "★ INTERNSHIP", "DEPLOYING"),
     ("Alfa ERP", "WORLD 1-2", "ledger",
-     ".NET 9 accounting ERP, co-developed. I shipped signed, verified backups and an MCP "
-     "server where AI proposes entries and an accountant approves.",
+     "Problem: trusted books, faster entry. Built: signed, verified backups and an MCP "
+     "server. Impact: AI proposes, the accountant approves; 1,299 tests green.",
      [".NET 9", "WPF", "PostgreSQL", "MCP"], "★ AI × HUMAN", "IN DEVELOPMENT"),
     ("MedLink", "WORLD 1-3", "medkit",
-     "Health portal for three clinics; the browser never holds a token. I built the auth "
-     "hardening test-first: lockout, idle sessions, strict cookies.",
+     "Problem: patient data behind weak logins. Built: lockout, idle sessions, strict "
+     "cookies, test-first. Impact: no token in the browser, scanned in CI.",
      ["Spring Boot 4", "Keycloak", "CodeQL", "ZAP"], "★ SECURITY", "IN DEVELOPMENT"),
     ("Hermes", "WORLD 1-4", "cart",
-     "Solo e-commerce platform growing into a multi-tenant SaaS: 63 REST endpoints, "
-     "101 Jest tests, Docker, rate limits and caching.",
+     "Problem: selling online without a costly platform. Built solo: 63 REST endpoints, 101 tests, "
+     "Docker. Impact: live store, growing into a multi-tenant SaaS.",
      ["React", "Node.js", "MongoDB", "Docker"], "★ LIVE", "LIVE"),
     ("Secured Banking Infra", "WORLD 2-1", "bank",
-     "Private cloud from scratch in GNS3 + OpenStack: dual pfSense, four VLAN tiers, Kafka "
-     "microservices and a Wazuh SOC.",
+     "Problem: bank-grade isolation on a budget. Built: OpenStack cloud, dual pfSense, "
+     "four VLAN tiers, Wazuh SOC. Impact: Projects Ball nominee.",
      ["OpenStack", "pfSense", "Kafka", "Wazuh"], "★ NOMINEE", "CLEARED"),
     ("CI/CD Pipeline", "WORLD 2-2", "pipe",
-     "Five-stage Jenkins pipeline: every push builds, tests and ships a numbered image to "
-     "Docker Hub, with Kubernetes manifests.",
+     "Problem: manual, error-prone releases. Built: five-stage Jenkins pipeline. "
+     "Impact: every push is tested and shipped as a versioned image.",
      ["Jenkins", "Docker", "Kubernetes", "Nexus"], None, "CLEARED"),
 ]
 

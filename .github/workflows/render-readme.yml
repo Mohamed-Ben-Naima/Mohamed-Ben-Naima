@@ -39,7 +39,11 @@ jobs:
         run: |
           OWNER="${{ github.repository_owner }}"
           REPO="${{ github.event.repository.name }}"
-          sed -e "s/{{OWNER}}/$OWNER/g" -e "s/{{REPO}}/$REPO/g" README.template.md > README.md
+          # Content hash on every asset URL so GitHub's image cache serves the new SVGs
+          V=$(cat assets/*.svg | sha1sum | cut -c1-8)
+          sed -e "s/{{OWNER}}/$OWNER/g" -e "s/{{REPO}}/$REPO/g" \
+              -e "s#src=\"assets/\([a-z0-9-]*\)\.svg\"#src=\"assets/\1.svg?v=$V\"#g" \
+              README.template.md > README.md
 
       - name: Commit rendered outputs if changed
         run: |
