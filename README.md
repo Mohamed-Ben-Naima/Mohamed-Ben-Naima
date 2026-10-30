@@ -1,28 +1,28 @@
-<p align="center"><img src="assets/hero.svg?v=09a80182" width="100%" alt="Mohamed Ben Naima — Full-Stack Developer and Cybersecurity &amp; Cloud Engineer" /></p>
+<p align="center"><img src="assets/hero.svg?v=7d004c11" width="100%" alt="Mohamed Ben Naima — Full-Stack Developer and Cybersecurity &amp; Cloud Engineer" /></p>
 
 <p align="center">
   <i>Full-stack engineer specialised in cybersecurity &amp; cloud — shipping secure web platforms, industrial ERPs and cloud-deployed infrastructure. I build systems, then try to break them.</i>
 </p>
 
 <p align="center">
-  <a href="https://mohamed-ben-naima.netlify.app/"><img src="assets/btn-portfolio.svg?v=09a80182" height="48" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/mohamed-ben-naima"><img src="assets/btn-linkedin.svg?v=09a80182" height="48" alt="LinkedIn" /></a>
-  <a href="https://raw.githubusercontent.com/Mohamed-Ben-Naima/Mohamed-Ben-Naima/main/cv.pdf"><img src="assets/btn-cv.svg?v=09a80182" height="48" alt="Download CV" /></a>
+  <a href="https://mohamed-ben-naima.netlify.app/"><img src="assets/btn-portfolio.svg?v=7d004c11" height="48" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/mohamed-ben-naima"><img src="assets/btn-linkedin.svg?v=7d004c11" height="48" alt="LinkedIn" /></a>
+  <a href="https://raw.githubusercontent.com/Mohamed-Ben-Naima/Mohamed-Ben-Naima/main/cv.pdf"><img src="assets/btn-cv.svg?v=7d004c11" height="48" alt="Download CV" /></a>
 </p>
 
 <p align="center">
   <sub>📍 <b>Mahdia, Tunisia</b> &nbsp;·&nbsp; 🎓 <b>ESPRIM — Cybersecurity &amp; Cloud</b> &nbsp;·&nbsp; 🏭 <b>Building Alfa ERP, Polymaille ERP &amp; MedLink</b> &nbsp;·&nbsp; 🎯 <b>Open to a PFE internship</b></sub>
 </p>
 
-<p align="center"><img src="assets/ticker.svg?v=09a80182" width="100%" alt="Secure the stack · Ship the vision · Full-stack · Cloud · Cybersecurity · CTFs · Hackathons · Communities · Based in Mahdia · Building globally" /></p>
+<p align="center"><img src="assets/ticker.svg?v=7d004c11" width="100%" alt="Secure the stack · Ship the vision · Full-stack · Cloud · Cybersecurity · CTFs · Hackathons · Communities · Based in Mahdia · Building globally" /></p>
 
-<p align="center"><img src="assets/divider.svg?v=09a80182" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider.svg?v=7d004c11" width="100%" alt="" /></p>
 
 <!-- ─────────────────────────── STAGE 01 ─────────────────────────── -->
 
-<p align="center"><img src="assets/h-player.svg?v=09a80182" width="70%" alt="Stage 01 · The Player" /></p>
+<p align="center"><img src="assets/h-player.svg?v=7d004c11" width="70%" alt="Stage 01 · The Player" /></p>
 
-<p align="center"><img src="assets/player.svg?v=09a80182" width="100%" alt="Player card — Class: Sec-Dev · Base: Mahdia, Tunisia · Languages: Arabic, French, English, German · Full-stack S · Cybersecurity S · Networking A · Cloud &amp; DevOps A · Databases A · Team play S · Current quest: land a PFE internship" /></p>
+<p align="center"><img src="assets/player.svg?v=7d004c11" width="100%" alt="Player card — Class: Sec-Dev · Base: Mahdia, Tunisia · Languages: Arabic, French, English, German · Full-stack S · Cybersecurity S · Networking A · Cloud &amp; DevOps A · Databases A · Team play S · Current quest: land a PFE internship" /></p>
 
 <details>
 <summary><b>🕹️ Cheat code: <code>↑ ↑ ↓ ↓ ← → ← → B A</code></b> — click to unlock the player's lore</summary>
@@ -48,55 +48,55 @@ party:       open to collaborations & CTF teammates
 
 </details>
 
-<p align="center"><img src="assets/divider.svg?v=09a80182" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider.svg?v=7d004c11" width="100%" alt="" /></p>
 
 <!-- ─────────────────────────── STAGE 02 ─────────────────────────── -->
 
-<p align="center"><img src="assets/h-quests.svg?v=09a80182" width="70%" alt="Stage 02 · Experience" /></p>
+<p align="center"><img src="assets/h-quests.svg?v=7d004c11" width="70%" alt="Stage 02 · Experience" /></p>
 
-<p align="center"><img src="assets/quest-log.svg?v=09a80182" width="100%" alt="Quest log — Jul–Sep 2026: Software Engineering Intern, Polymaille (delivered the Microtiss Confect ERP) · Mar 2024–Aug 2025: Full-Stack / Backend / Mobile Developer, Alfa Computers (The Hive, MERN e-commerce, IoT team lead) · 2024–now: Engineering degree, ESPRIM Monastir · 2021–2024: BSc Software Engineering, ISIMa Mahdia, highest honours" /></p>
+<p align="center"><img src="assets/quest-log.svg?v=7d004c11" width="100%" alt="Quest log — Jul–Sep 2026: Software Engineering Intern, Polymaille (delivered the Microtiss Confect ERP) · Mar 2024–Aug 2025: Full-Stack / Backend / Mobile Developer, Alfa Computers (The Hive, MERN e-commerce, IoT team lead) · 2024–now: Engineering degree, ESPRIM Monastir · 2021–2024: BSc Software Engineering, ISIMa Mahdia, highest honours" /></p>
 
-<p align="center"><img src="assets/divider.svg?v=09a80182" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider.svg?v=7d004c11" width="100%" alt="" /></p>
 
 <!-- ─────────────────────────── STAGE 03 ─────────────────────────── -->
 
-<p align="center"><img src="assets/h-projects.svg?v=09a80182" width="70%" alt="Stage 03 · Featured Work" /></p>
+<p align="center"><img src="assets/h-projects.svg?v=7d004c11" width="70%" alt="Stage 03 · Featured Work" /></p>
 
-<p align="center"><img src="assets/level-select.svg?v=09a80182" width="100%" alt="Level select — main quests: Polymaille ERP (Spring Modulith, deploying) · Alfa ERP (.NET 9, AI proposes, accountant approves) · MedLink (Spring Boot + Keycloak auth hardening) · Hermes (live e-commerce, 63 endpoints, 101 tests). Side levels: Secured Banking Infrastructure (nominee) · Jenkins CI/CD pipeline" /></p>
+<p align="center"><img src="assets/level-select.svg?v=7d004c11" width="100%" alt="Level select — main quests: Polymaille ERP (Spring Modulith, deploying) · Alfa ERP (.NET 9, AI proposes, accountant approves) · MedLink (Spring Boot + Keycloak auth hardening) · Hermes (live e-commerce, 63 endpoints, 101 tests). Side levels: Secured Banking Infrastructure (nominee) · Jenkins CI/CD pipeline" /></p>
 
 <p align="center">
   <sub>Most of this work is private while it ships — check my pinned repos for what's public. 🍳</sub>
 </p>
 
-<p align="center"><img src="assets/divider.svg?v=09a80182" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider.svg?v=7d004c11" width="100%" alt="" /></p>
 
 <!-- ─────────────────────────── STAGE 04 ─────────────────────────── -->
 
-<p align="center"><img src="assets/h-stack.svg?v=09a80182" width="70%" alt="Stage 04 · Tech Arsenal" /></p>
+<p align="center"><img src="assets/h-stack.svg?v=7d004c11" width="70%" alt="Stage 04 · Tech Arsenal" /></p>
 
-<p align="center"><img src="assets/inventory.svg?v=09a80182" width="100%" alt="Tech arsenal — Languages: Python, JavaScript, TypeScript, Java, PHP, SQL · Frontend: Angular, React, React Native, Tailwind, HTML/CSS · Backend: FastAPI, Node.js, Express, Spring Boot, Symfony, Swagger · Databases: MongoDB, PostgreSQL, MySQL, Oracle · Tools: Git, Postman, Jira, n8n · Security: JWT, OAuth2, RBAC, Keycloak, Wazuh, Kali · DevSecOps &amp; Cloud: Jenkins, GitHub Actions, Docker, Kubernetes, Terraform, Trivy · Network &amp; OS: Cisco, pfSense, Wireshark, VLANs, Ubuntu, Windows Server · Observability: Grafana, Prometheus, Loki, Kafka" /></p>
+<p align="center"><img src="assets/inventory.svg?v=7d004c11" width="100%" alt="Tech arsenal — Languages: Python, JavaScript, TypeScript, Java, PHP, SQL · Frontend: Angular, React, React Native, Tailwind, HTML/CSS · Backend: FastAPI, Node.js, Express, Spring Boot, Symfony, Swagger · Databases: MongoDB, PostgreSQL, MySQL, Oracle · Tools: Git, Postman, Jira, n8n · Security: JWT, OAuth2, RBAC, Keycloak, Wazuh, Kali · DevSecOps &amp; Cloud: Jenkins, GitHub Actions, Docker, Kubernetes, Terraform, Trivy · Network &amp; OS: Cisco, pfSense, Wireshark, VLANs, Ubuntu, Windows Server · Observability: Grafana, Prometheus, Loki, Kafka" /></p>
 
-<p align="center"><img src="assets/divider.svg?v=09a80182" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider.svg?v=7d004c11" width="100%" alt="" /></p>
 
 <!-- ─────────────────────────── STAGE 05 ─────────────────────────── -->
 
-<p align="center"><img src="assets/h-trophies.svg?v=09a80182" width="70%" alt="Stage 05 · Achievements" /></p>
+<p align="center"><img src="assets/h-trophies.svg?v=7d004c11" width="70%" alt="Stage 05 · Achievements" /></p>
 
-<p align="center"><img src="assets/achievements.svg?v=09a80182" width="100%" alt="Achievements — Projects Ball nominee (Secured Banking Infrastructure) · 2nd &amp; 4th place, Polytech Sousse CTF with Hunters Club · 2nd place, Clean &amp; Green hackathon 2025 · Co-founded Hunters Club · Highest honours at ISIMa, top of class at ESPRIM · CLLMSP &amp; CRTOM certified, CCNA in progress" /></p>
+<p align="center"><img src="assets/achievements.svg?v=7d004c11" width="100%" alt="Achievements — Projects Ball nominee (Secured Banking Infrastructure) · 2nd &amp; 4th place, Polytech Sousse CTF with Hunters Club · 2nd place, Clean &amp; Green hackathon 2025 · Co-founded Hunters Club · Highest honours at ISIMa, top of class at ESPRIM · CLLMSP &amp; CRTOM certified, CCNA in progress" /></p>
 
-<p align="center"><img src="assets/divider.svg?v=09a80182" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider.svg?v=7d004c11" width="100%" alt="" /></p>
 
 <!-- ─────────────────────────── STAGE 06 ─────────────────────────── -->
 
-<p align="center"><img src="assets/h-stats.svg?v=09a80182" width="70%" alt="Stage 06 · GitHub Stats" /></p>
+<p align="center"><img src="assets/h-stats.svg?v=7d004c11" width="70%" alt="Stage 06 · GitHub Stats" /></p>
 
-<p align="center"><img src="assets/scoreboard.svg?v=09a80182" width="100%" alt="GitHub scoreboard — contributions, commits, pull requests, repos, stars, followers, streaks, top languages and 52-week activity, refreshed daily" /></p>
+<p align="center"><img src="assets/scoreboard.svg?v=7d004c11" width="100%" alt="GitHub scoreboard — contributions, commits, pull requests, repos, stars, followers, streaks, top languages and 52-week activity, refreshed daily" /></p>
 
-<p align="center"><img src="assets/divider.svg?v=09a80182" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider.svg?v=7d004c11" width="100%" alt="" /></p>
 
 <!-- ─────────────────────────── STAGE 07 ─────────────────────────── -->
 
-<p align="center"><img src="assets/h-snake.svg?v=09a80182" width="70%" alt="Stage 07 · Contribution Arcade" /></p>
+<p align="center"><img src="assets/h-snake.svg?v=7d004c11" width="70%" alt="Stage 07 · Contribution Arcade" /></p>
 
 <p align="center"><sub>Every square is a day of commits. Pac-Man is hungry. 👻</sub></p>
 
@@ -116,26 +116,26 @@ party:       open to collaborations & CTF teammates
 </p>
 </details>
 
-<p align="center"><img src="assets/divider.svg?v=09a80182" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider.svg?v=7d004c11" width="100%" alt="" /></p>
 
 <!-- ─────────────────────────── STAGE 08 ─────────────────────────── -->
 
-<p align="center"><img src="assets/h-beyond.svg?v=09a80182" width="70%" alt="Stage 08 · Beyond the Code" /></p>
+<p align="center"><img src="assets/h-beyond.svg?v=7d004c11" width="70%" alt="Stage 08 · Beyond the Code" /></p>
 
-<p align="center"><img src="assets/side-quests.svg?v=09a80182" width="100%" alt="Side quests — Gym: discipline in the terminal and out of it · Chess: thinking moves ahead · Books: security, systems and the odd page of fiction · Kickboxing: problem-solving with solid form" /></p>
+<p align="center"><img src="assets/side-quests.svg?v=7d004c11" width="100%" alt="Side quests — Gym: discipline in the terminal and out of it · Chess: thinking moves ahead · Books: security, systems and the odd page of fiction · Kickboxing: problem-solving with solid form" /></p>
 
-<p align="center"><img src="assets/divider.svg?v=09a80182" width="100%" alt="" /></p>
+<p align="center"><img src="assets/divider.svg?v=7d004c11" width="100%" alt="" /></p>
 
-<p align="center"><img src="assets/footer.svg?v=09a80182" width="100%" alt="Thanks for playing — continue?" /></p>
+<p align="center"><img src="assets/footer.svg?v=7d004c11" width="100%" alt="Thanks for playing — continue?" /></p>
 
 <p align="center">
-  <a href="https://mohamed-ben-naima.netlify.app/"><img src="assets/btn-portfolio.svg?v=09a80182" height="44" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/mohamed-ben-naima"><img src="assets/btn-linkedin.svg?v=09a80182" height="44" alt="LinkedIn" /></a>
-  <a href="https://raw.githubusercontent.com/Mohamed-Ben-Naima/Mohamed-Ben-Naima/main/cv.pdf"><img src="assets/btn-cv.svg?v=09a80182" height="44" alt="Download CV" /></a>
+  <a href="https://mohamed-ben-naima.netlify.app/"><img src="assets/btn-portfolio.svg?v=7d004c11" height="44" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/mohamed-ben-naima"><img src="assets/btn-linkedin.svg?v=7d004c11" height="44" alt="LinkedIn" /></a>
+  <a href="https://raw.githubusercontent.com/Mohamed-Ben-Naima/Mohamed-Ben-Naima/main/cv.pdf"><img src="assets/btn-cv.svg?v=7d004c11" height="44" alt="Download CV" /></a>
   <br/>
-  <a href="mailto:Medbennaima2021@gmail.com"><img src="assets/btn-email.svg?v=09a80182" height="44" alt="Email" /></a>
-  <a href="https://github.com/Mohamed-Ben-Naima"><img src="assets/btn-github.svg?v=09a80182" height="44" alt="GitHub" /></a>
-  <a href="https://tryhackme.com/p/medbennaima2021"><img src="assets/btn-tryhackme.svg?v=09a80182" height="44" alt="TryHackMe" /></a>
+  <a href="mailto:Medbennaima2021@gmail.com"><img src="assets/btn-email.svg?v=7d004c11" height="44" alt="Email" /></a>
+  <a href="https://github.com/Mohamed-Ben-Naima"><img src="assets/btn-github.svg?v=7d004c11" height="44" alt="GitHub" /></a>
+  <a href="https://tryhackme.com/p/medbennaima2021"><img src="assets/btn-tryhackme.svg?v=7d004c11" height="44" alt="TryHackMe" /></a>
 </p>
 
 <p align="center">
