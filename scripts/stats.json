@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21",
+ "updated": "2026-11-22",
  "contributions": 560,
  "commits": 487,
  "prs": 46,
@@ -10,7 +10,6 @@
  "current_streak": 0,
  "longest_streak": 14,
  "weeks": [
-  0,
   1,
   0,
   0,
@@ -62,7 +61,8 @@
   102,
   34,
   55,
-  89
+  89,
+  0
  ],
  "languages": [
   [
