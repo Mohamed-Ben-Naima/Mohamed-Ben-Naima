@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-22",
- "contributions": 560,
- "commits": 487,
- "prs": 46,
+ "updated": "2026-11-23",
+ "contributions": 578,
+ "commits": 502,
+ "prs": 48,
  "issues": 1,
- "repos": 22,
+ "repos": 23,
  "stars": 1,
- "followers": 16,
- "current_streak": 0,
+ "followers": 17,
+ "current_streak": 2,
  "longest_streak": 14,
  "weeks": [
   1,
@@ -62,28 +62,28 @@
   34,
   55,
   89,
-  0
+  18
  ],
  "languages": [
   [
    "HTML",
-   56.9
+   56.6
   ],
   [
    "CSS",
-   17.7
+   17.3
   ],
   [
    "Python",
-   11.2
+   12.3
   ],
   [
    "Twig",
-   8.8
+   8.5
   ],
   [
    "PHP",
-   5.5
+   5.3
   ]
  ]
 }
