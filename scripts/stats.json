@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-24",
- "contributions": 590,
- "commits": 513,
- "prs": 48,
+ "updated": "2026-11-25",
+ "contributions": 592,
+ "commits": 514,
+ "prs": 50,
  "issues": 1,
  "repos": 24,
  "stars": 1,
- "followers": 17,
- "current_streak": 3,
+ "followers": 16,
+ "current_streak": 4,
  "longest_streak": 14,
  "weeks": [
   1,
@@ -61,13 +61,13 @@
   102,
   34,
   55,
-  89,
-  30
+  88,
+  33
  ],
  "languages": [
   [
    "HTML",
-   55.2
+   55.1
   ],
   [
    "CSS",
@@ -75,7 +75,7 @@
   ],
   [
    "Python",
-   14.4
+   14.5
   ],
   [
    "Twig",
