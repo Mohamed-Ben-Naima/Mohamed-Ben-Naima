@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-27",
- "contributions": 678,
- "commits": 594,
+ "updated": "2026-11-28",
+ "contributions": 689,
+ "commits": 605,
  "prs": 55,
  "issues": 2,
  "repos": 24,
@@ -62,20 +62,20 @@
   43,
   62,
   89,
-  62
+  73
  ],
  "languages": [
   [
    "HTML",
-   55.1
+   54.7
   ],
   [
    "CSS",
-   16.9
+   16.8
   ],
   [
    "Python",
-   14.5
+   15.1
   ],
   [
    "Twig",
@@ -83,7 +83,7 @@
   ],
   [
    "PHP",
-   5.2
+   5.1
   ]
  ]
 }
